@@ -7,7 +7,8 @@
   "scripts": {
     "consumer": "nodemon src/consumer.ts",
     "producer": "nodemon src/connection.ts",
-    "api": "nodemon src/index.ts"
+    "api": "nodemon src/index.ts",
+    "docker": "docker-compose up -d"
   },
   "devDependencies": {
     "eslint": "^8.34.0",
